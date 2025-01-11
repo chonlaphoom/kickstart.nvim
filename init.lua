@@ -80,6 +80,8 @@ vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
 -- my custom
 vim.keymap.set('i', '<C-c>', '<Esc>')
 
+vim.keymap.set('n', '<leader>qf', '<cmd>lua vim.lsp.buf.code_action()<cr>', { noemap = true, desc = 'Open Qucik Fix Window' })
+
 -- Diagnostic keymaps
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostic [Q]uickfix list' })
 
