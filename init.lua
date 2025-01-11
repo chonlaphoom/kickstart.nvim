@@ -786,10 +786,7 @@ require('lazy').setup({
     lazy = false,
     priority = 1000,
     config = function()
-      require('neomodern').setup {
-        theme = 'coffeecat',
-      }
-      require('neomodern').load()
+      vim.cmd 'colorscheme coffeecat'
     end,
   },
   -- Highlight todo, notes, etc in comments
