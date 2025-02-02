@@ -11,7 +11,6 @@ vim.opt.relativenumber = true
 vim.opt.mouse = 'a'
 
 vim.opt.showmode = false
-vim.opt.guicursor = 'n-v-i-c:block-Cursor'
 -- Sync clipboard between OS and Neovim.
 --  See `:help 'clipboard'`
 vim.schedule(function()
